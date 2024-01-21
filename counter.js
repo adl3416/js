@@ -5,10 +5,10 @@ import {AiOutlineMinusCircle, AiOutlinePlusCircle} from "react-icons/ai";
 import {GrPowerReset} from "react-icons/gr";
  
 
-const Conunter = () => {
+const Conunter = () => { //
     const [counter, setcounter] = useState(0)
 
-    const handleClickt= (val)=>{   // sayac sifirin altina inmesini engelliyor
+    const handleClickt= (val)=>{   // sayac sifirin altina inmesini engelliyorr
      if(val<0) val=0;
      setcounter(val)
 
