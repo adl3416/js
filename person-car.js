@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import {FaTrash} from "react-icons/fa";
 
-const PersonCard = ({id, name, age, image,deletePersonProp }) => {
+const PersonCard = ({id, name, age, image,deletePersonProp }) => { //prop
   return (
     <Card className=" mb-4 positon-relative">
       <Row>
